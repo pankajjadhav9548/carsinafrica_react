@@ -11,20 +11,23 @@ const navLinks = [
   },
   {
     path: "/about",
-    display: "About",
+    display: "About Us",
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Car Rental",
   },
-
+  {
+    path: "/services",
+    display: "Services",
+  },
   {
     path: "/blogs",
-    display: "Blog",
+    display: "Blogs",
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contact Us",
   },
 ];
 
@@ -43,7 +46,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> +1-000-0000-000
                 </span>
               </div>
             </Col>
@@ -86,8 +89,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>Africa</h4>
+                  <h6>Sylhet City, Africa</h6>
                 </div>
               </div>
             </Col>

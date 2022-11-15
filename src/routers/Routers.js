@@ -9,7 +9,7 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact"; 
-
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 const Routers = () => {
   return (
     <Routes>
@@ -23,6 +23,7 @@ const Routers = () => {
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/privacy_policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 };

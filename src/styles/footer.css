@@ -1,5 +1,5 @@
 .footer {
-  background: #000d6b;
+  background: #28810b;
   padding-top: 50px;
   padding-bottom: 15px;
 }
@@ -67,7 +67,7 @@
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 1px solid #7a7a7a;
 }
 
 @media only screen and (max-width: 768px) {

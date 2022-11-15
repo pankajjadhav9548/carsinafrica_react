@@ -1,6 +1,6 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: #fc5a0a;
   color: #fff;
 }
 
@@ -64,21 +64,22 @@
 
 .header__location span i {
   font-size: 2.2rem;
-  color: #000d6b;
+  color: #1a1a1a;
 }
 
 .header__location-content h4 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #000d6b;
+  color: #28810b;
 }
 
 .header__location-content h6 {
   font-weight: 600;
+  color: #28810b;
 }
 
 .header__btn {
-  background: #000d6b !important;
+  background: #28810b !important;
   padding: 10px 20px;
   border: none;
   outline: none;
@@ -103,7 +104,7 @@
 
 .main__navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: #28810b;
 }
 
 .mobile__menu i {
@@ -133,12 +134,12 @@
 }
 
 .search__box {
-  border: 1px solid #7c8a972f;
+  border: 1px solid #12121273;
   padding: 7px 12px;
   display: flex;
   align-items: center;
-  border-radius: 50px;
-  background: #020a4de9;
+  border-radius: 10px;
+  background: #7fbb1ff7;
 }
 
 .search__box input {

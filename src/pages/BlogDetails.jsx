@@ -27,7 +27,6 @@ const BlogDetails = () => {
               <div className="blog__details">
                 <img src={blog.imgUrl} alt="" className="w-100" />
                 <h2 className="section__title mt-4">{blog.title}</h2>
-
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog__author">
                     <i class="ri-user-line"></i> {blog.author}
@@ -56,7 +55,7 @@ const BlogDetails = () => {
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
                     <h6 className=" fw-bold">David Visa</h6>
-                    <p className="section__description mb-0">14 July, 2022</p>
+                    <p className="section__description mb-0">14 November, 2022</p>
                     <p className="section__description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eos nobis totam eius laborum molestias itaque minima

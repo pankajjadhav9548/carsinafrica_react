@@ -6,13 +6,13 @@ import Routers from "../../routers/Routers";
 
 const Layout = () => {
   return (
-    <Fragment>
+    <>
       <Header />
       <div>
         <Routers />
       </div>
       <Footer />
-    </Fragment>
+    </>
   );
 };
 

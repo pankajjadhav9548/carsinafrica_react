@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
+import LogoImg from "../../assets/all-images/logo.png";
 
 const navLinks = [
   {
@@ -74,10 +75,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
-                    <span>
-                      Rent Car <br /> Service
-                    </span>
+                   <img src={LogoImg} alt="" />
                   </Link>
                 </h1>
               </div>

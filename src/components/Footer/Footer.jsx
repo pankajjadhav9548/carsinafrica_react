@@ -2,8 +2,8 @@ import React from "react";
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
-import "../../styles/footer.css";   
-
+import "../../styles/footer.css"; 
+// import footer_logo from "../../assets/all-images/footer_logo.png";
 const quickLinks = [
   {
     path: "/about",
@@ -11,7 +11,7 @@ const quickLinks = [
   },
 
   {
-    path: "#",
+    path: "/privacy_policy",
     display: "Privacy Policy",
   },
 
@@ -38,16 +38,14 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="4" md="4" sm="12">
-            <div className="logo footer__logo">
+            {/* <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
-                  <span>
-                    Rent Car <br /> Service
-                  </span>
+                <img src={footer_logo} className="img-responsive" width="250px" height="50px"/> 
                 </Link>
               </h1>
-            </div>
+            </div> */}
+            <h5 className="footer__link-title">What We Do</h5>
             <p className="footer__logo-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
@@ -96,9 +94,9 @@ const Footer = () => {
 
           <Col lg="12">
             <div className="footer__bottom">
-              <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
+              <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4" style={{color:"white"}}>
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed & Designed by
-                <a href="#"><font color="white">Time Legend</font></a> All rights reserved.
+                <a href="#"><font color="orange">Time Legend</font></a> All rights reserved.
               </p>
             </div>
           </Col>

@@ -163,16 +163,34 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .header__top,
-  .header__middle,
-  .nav__right {
+   /* .header__top {
+    display: none;
+  } */
+  /* .header__middle {
+    display: none;
+    background-image: url("../assets/all-images/logo.png");
+  } */
+  /* .nav__right {
+    display: none;
+  } */
+  .header__location-content {
     display: none;
   }
-
+  
   .mobile__menu {
     display: block;
   }
-
+  .header__location span i {
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    display: none;
+}
+.header__top__right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: -21px;
+}
   .navigation {
     background: rgb(0, 13, 107, 0.6);
     width: 100%;
